@@ -187,7 +187,7 @@ export const getTextStyles = (props?: {
       fontSize: 12,
       lineHeight: 16,
       margin: 0,
-      textTransform: `lowercase`,
+      textTransform: `lowercase` as const,
     },
 
     overline_02: {
@@ -195,7 +195,7 @@ export const getTextStyles = (props?: {
       fontSize: 12,
       lineHeight: 16,
       margin: 0,
-      textTransform: `lowercase`,
+      textTransform: `lowercase` as const,
     },
 
     code: {
